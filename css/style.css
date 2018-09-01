@@ -1,0 +1,170 @@
+body{
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/bg.jpeg);
+}
+
+h1 {
+	text-align: center;
+	color:white;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #0000fF;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color:white;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #0000fF;
+}
+
+.element {
+	font-size: 25px;
+	text-align: center;
+	padding-bottom: 5px;
+	font-weight: bold;
+
+}
+
+.element-name {
+	text-align: center;
+	font-size: 10px;
+}
+
+.lName {
+	text-align: center;
+	font-size: 9px;
+}
+
+table {
+	float: left;
+}
+
+#t2,#t13,#t14,#t15,#t16,#t17{
+	margin-top: 75.5px; 
+}
+
+#t3,#t4,#t5,#t6,#t7,#t8,#t9,#t10,#t11,#t12{
+	padding-top: 225.5px;
+}
+
+
+.atom-number{
+	font-size: 13px;
+}
+
+
+.mass {
+	font-size: 8px;
+	text-align: center;
+}
+
+
+td {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+	width: 50px;
+	height: 75%;
+	transition: width 1s;
+
+}
+
+td:hover {
+	color:white;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #0000fF;
+    width: 100px;
+    height: 100px;
+}
+
+#periodic {
+	margin-left: 10%;
+	margin-bottom: 2%;
+	position: absolute;
+}
+
+#tab1 {
+	float:left;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+#table2 {
+	margin-top: 500px;
+	margin-left: 200px;
+	margin-bottom: 300px;
+}
+
+.pos {
+	margin-top: 80px;
+	float: left;
+}
+
+.mass:hover,.element-name:hover{
+	font-size: 20px;
+}
+
+.element:hover {
+	font-size: 30px;
+}
+
+.lName:hover {
+	font-size: 17px;
+}
+
+.nonmetal {
+	background-color: rgba(89, 104, 254,0.5);
+	border-color: rgba(89, 104, 254,1);
+}
+
+.alkali {
+	background-color: rgba(255,0,0,0.4);
+	border-color: red;
+}
+
+.alkaline-earth {
+	background-color: rgba(255, 147, 0,0.4);
+	border-color: orange;
+}
+
+.transition {
+	background-color: rgba(255, 255, 0,0.4);
+	border-color: yellow;
+}
+
+.metalloid {
+	background-color: rgba(0, 209, 234,0.4);
+	border-color: #00E4FF;
+}
+
+.basic {
+	border-color: green;
+	background-color:rgba(127, 200, 0,0.6);
+}
+
+.halogen {
+	background-color: rgba(164, 137, 249,0.6);
+	border-color: #8057FF;
+}
+
+.noble {
+	background-color: rgba(195, 155, 211,0.6);
+	border-color: purple;
+}
+
+.lathinide {
+	background-color: rgba(255, 0, 193,0.4);
+	border-color: rgba(255, 0, 193,1);
+}
+
+.actinide {
+	background-color: rgba(251, 151, 254,0.6);
+	border-color: #F933FF;
+}
+
+#liquid {
+	color: #33E3FF;
+}
+

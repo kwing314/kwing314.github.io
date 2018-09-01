@@ -1,0 +1,52 @@
+
+body
+{
+	background-image: url(../images/bg.jpg);
+	 background-repeat: no-repeat;
+	
+}
+
+img 
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5% 10% 10% 10%;
+	
+}
+
+.fifth {
+	font-weight: 400;
+	text-shadow: 
+		3px 3px 0
+		#FF0000;
+	transition: all 0.1s ease;
+}
+
+.fifth:hover {
+	text-shadow: 0 0 0 #D7FF33;
+}
+
+#txt,#demo,#home
+{
+	font-size: 100px;
+	text-align: center;
+	color: white;
+}
+
+.white
+{
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-family: "Times New Roman"
+}
+
+h1 {
+	text-align:center;
+	margin-bottom: 40px;
+	text-shadow: 0 0 10px #ffffff, 0 0 15px #0000ff;
+	text-decoration: underline;
+	font-size: 50px;
+}
+
+	
